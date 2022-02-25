@@ -1,4 +1,4 @@
-function cristo() {
+function chri() {
     var input = document.getElementsByTagName("input");
     var cognome = input[0];
     var nome = input[1];
