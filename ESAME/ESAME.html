@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+    <form action="" method="POST" name="THEMASTER">
+        <input type="text" name="email" id="email" placeholder="email" value=""><br>
+        <input type="password" name="psw" id="psw" placeholder="password" value=""><br>
+        <input type="password" name="confermapassword" id="confermapassword" placeholder="conferma password" value=""><br>
+        <input type="text" name="nome" id="nome" placeholder="nome" value=""><br>
+        <input type="text" name="cognome" id="cognome" placeholder="cognome" value=""><br>
+        <input type="text" name="eta" id="eta" placeholder="eta'" value=""><br>
+        <input type="radio" name="sesso" id="sesso" value="M">M
+        <input type="radio" name="sesso" id="sesso" value="F">F
+        <br>
+        <select name="regione" id="regione">
+            <option value="Nessuna" hidden>Regione</option>
+            <option value="Valdaosta">Val d’Aosta</option>
+            <option value="Piemonte">Piemonte</option>
+            <option value="Liguria">Liguria</option>
+            <option value="Lombardia">Lombardia</option>
+            <option value="Veneto">Veneto</option>
+            <option value="Trentino">Trentino Alto Adige</option>
+            <option value="Friuli">Friuli Venezia-Giulia</option>
+            <option value="Emilia">Emilia-Romagna</option>
+            <option value="Toscana">Toscana</option>
+            <option value="Marche">Marche</option>
+            <option value="Umbria">Umbria</option>
+            <option value="Lazio">Lazio</option>
+            <option value="Abruzzo">Abruzzo</option>
+            <option value="Molise">Molise</option>
+            <option value="Campania">Campania</option>
+            <option value="Basilicata">Basilicata</option>
+            <option value="Puglia">Puglia</option>
+            <option value="Calabria">Calabria</option>
+            <option value="Sicilia">Sicilia</option>
+            <option value="Sardegna">Sardegna</option>
+        </select>
+        <button type="button" onclick="promiseInviaDati('POST',urlSet)">set</button>
+        <button type="button" onclick="promisePrendiDati('POST',urlGet)">get</button>
+        <button type="button" onclick="promiseAggiornaDati('POST',urlUpp)">up</button>
+        <button type="button" onclick="promiseCancellaDati('POST',urlDel)">del</button>
+        </form>
+</body>
+ <script type="text/javascript"src="ESAME.js"></script>
+</html>

@@ -58,7 +58,7 @@ public class Rubrica{
           System.out.println(x);
        x.aggiungiContatto("Alessio","Menichini","336789321");
           System.out.println(x);   
-        
+       
         
         
     }
